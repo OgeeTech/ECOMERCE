@@ -93,6 +93,7 @@ body{
     justify-content: center;
 }
 
+
 #navbar li{
     list-style: none;
     padding: 0 20px;
@@ -123,6 +124,16 @@ body{
     left: 20px;
 }
 
+
+
+#mobile{
+    display: none;
+    align-items: center;
+}
+
+#close{
+    display: none;
+}
 /* homepage */
 #hero{
     background-image:url("img/hero4.png") ;
@@ -526,7 +537,9 @@ font-size: 16px;
             text-align: center;
         }
       
-          /* media query */
+        
+    
+    /* media query */
     @media (max-width:799px) {
         .section-p1{
             padding: 40px 40px;
@@ -649,9 +662,4 @@ font-size: 16px;
         margin: 0 0 15px 0;
     }
 }
-
-
-    
-    
-
 
